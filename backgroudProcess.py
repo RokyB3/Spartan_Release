@@ -12,7 +12,7 @@ from PushUpCounter import PushUpCounter
 
 pygame.mixer.init()
 
-async def alarm_sequence(id):
+def alarm_sequence(id):
     # Read JSON file for settings
     with open("alarms.json") as json_file:
         data = json.load(json_file)
@@ -28,11 +28,8 @@ async def alarm_sequence(id):
     # Start pushup counter and wait for it to finish
     loop = asyncio.get_running_loop()
 
-    with concurrent.futures.ThreadPoolExecutor() as executor:
-        result = await loop.run_in_executor(executor, lambda: PushUpCounter.start_pushup_counter(extreme_mode))
-        print(result)
+    PushUpCounter.start_pushup_counter(extreme_mode)
 
-    # Stop light strobe after pushup counter finishes
 
     # Stop alarm sound
     if alarm_sound!=None:
