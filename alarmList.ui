@@ -6,9 +6,15 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1007</width>
-    <height>600</height>
+    <width>950</width>
+    <height>500</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>950</width>
+    <height>500</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -299,63 +305,18 @@ background-color: rgb(255, 255, 255);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>200</width>
+              <width>16777215</width>
               <height>16777215</height>
              </size>
             </property>
             <layout class="QGridLayout" name="gridLayout_4">
              <item row="0" column="0">
-              <widget class="QLabel" name="labelLights0">
+              <widget class="QLabel" name="labelMusic0">
                <property name="styleSheet">
                 <string notr="true">color: rgb(36, 31, 49);</string>
                </property>
                <property name="text">
-                <string>Music: No
-Brigtness: 100
-Colors: Red, Green</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QWidget" name="widget_12" native="true">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>2</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>200</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_5">
-             <item row="0" column="0">
-              <widget class="QLabel" name="labelVoice0">
-               <property name="styleSheet">
-                <string notr="true">color: rgb(36, 31, 49);</string>
-               </property>
-               <property name="text">
-                <string>Voice: Hello awleijdwlaijdaoiwjdalidj</string>
-               </property>
-               <property name="textFormat">
-                <enum>Qt::AutoText</enum>
-               </property>
-               <property name="scaledContents">
-                <bool>false</bool>
-               </property>
-               <property name="wordWrap">
-                <bool>false</bool>
+                <string>Music: No</string>
                </property>
               </widget>
              </item>
@@ -456,7 +417,7 @@ border-color: rgb(0, 0, 0);</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</iconset>
+              <normaloff>UI/throw-away.png</normaloff>UI/throw-away.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -570,54 +531,18 @@ background-color: rgb(255, 255, 255);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>200</width>
+              <width>16777215</width>
               <height>16777215</height>
              </size>
             </property>
             <layout class="QGridLayout" name="gridLayout_8">
              <item row="0" column="0">
-              <widget class="QLabel" name="labelLights1">
+              <widget class="QLabel" name="labelMusic1">
                <property name="styleSheet">
                 <string notr="true">color: rgb(36, 31, 49);</string>
                </property>
                <property name="text">
-                <string>Music: No
-Brigtness: 100
-Colors: Red, Green, Blue</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QWidget" name="widget_19" native="true">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>2</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>200</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_12">
-             <item row="0" column="0">
-              <widget class="QLabel" name="labelVoice1">
-               <property name="styleSheet">
-                <string notr="true">color: rgb(36, 31, 49);</string>
-               </property>
-               <property name="text">
-                <string>Voice: AEKKAUEHFDAOKHDLKAWIHDOWAIDHAIHDOAWUHDWAD</string>
+                <string>Music: No</string>
                </property>
               </widget>
              </item>
@@ -718,7 +643,7 @@ border-color: rgb(0, 0, 0);</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</iconset>
+              <normaloff>UI/throw-away.png</normaloff>UI/throw-away.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -832,54 +757,18 @@ background-color: rgb(255, 255, 255);</string>
             </property>
             <property name="maximumSize">
              <size>
-              <width>200</width>
+              <width>16777215</width>
               <height>16777215</height>
              </size>
             </property>
             <layout class="QGridLayout" name="gridLayout_17">
              <item row="0" column="0">
-              <widget class="QLabel" name="labelLights2">
+              <widget class="QLabel" name="labelMusic2">
                <property name="styleSheet">
                 <string notr="true">color: rgb(36, 31, 49);</string>
                </property>
                <property name="text">
-                <string>Music: No
-Brigtness: 100
-Colors: Red, Green, Blue</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QWidget" name="widget_24" native="true">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>2</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>200</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_16">
-             <item row="0" column="0">
-              <widget class="QLabel" name="labelVoice2">
-               <property name="styleSheet">
-                <string notr="true">color: rgb(36, 31, 49);</string>
-               </property>
-               <property name="text">
-                <string>Voice: OnAWOUDHOIUEAHIEAHFIESAUHFDKEAHFAIEUFHESAIUFH</string>
+                <string>Music: No</string>
                </property>
               </widget>
              </item>
@@ -990,7 +879,7 @@ border-color: rgb(0, 0, 0);</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</iconset>
+              <normaloff>UI/throw-away.png</normaloff>UI/throw-away.png</iconset>
             </property>
             <property name="iconSize">
              <size>
@@ -1092,43 +981,7 @@ background-color: rgb(255, 255, 255);</string>
            <widget class="QWidget" name="widget_30" native="true">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>1</horstretch>
-              <verstretch>0</verstretch>
-             </sizepolicy>
-            </property>
-            <property name="minimumSize">
-             <size>
-              <width>200</width>
-              <height>0</height>
-             </size>
-            </property>
-            <property name="maximumSize">
-             <size>
-              <width>200</width>
-              <height>16777215</height>
-             </size>
-            </property>
-            <layout class="QGridLayout" name="gridLayout_22">
-             <item row="0" column="0">
-              <widget class="QLabel" name="labelLights3">
-               <property name="styleSheet">
-                <string notr="true">color: rgb(36, 31, 49);</string>
-               </property>
-               <property name="text">
-                <string>Music: No
-Brigtness: 100
-Colors: Red, Green, Blue</string>
-               </property>
-              </widget>
-             </item>
-            </layout>
-           </widget>
-          </item>
-          <item>
-           <widget class="QWidget" name="widget_29" native="true">
-            <property name="sizePolicy">
-             <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
-              <horstretch>2</horstretch>
+              <horstretch>3</horstretch>
               <verstretch>0</verstretch>
              </sizepolicy>
             </property>
@@ -1144,14 +997,14 @@ Colors: Red, Green, Blue</string>
               <height>16777215</height>
              </size>
             </property>
-            <layout class="QGridLayout" name="gridLayout_21">
+            <layout class="QGridLayout" name="gridLayout_22">
              <item row="0" column="0">
-              <widget class="QLabel" name="labelVoice3">
+              <widget class="QLabel" name="labelMusic3">
                <property name="styleSheet">
                 <string notr="true">color: rgb(36, 31, 49);</string>
                </property>
                <property name="text">
-                <string>Voice: OnAKWHDOIAIHIAUDHIWAUHDIAWUHDIWAUHDIAWUHDIWAHUDIWAHUD</string>
+                <string>Music: No</string>
                </property>
               </widget>
              </item>
@@ -1262,7 +1115,7 @@ border-color: rgb(0, 0, 0);</string>
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</normaloff>../Desktop/SterilizationDB/Code/UI/src/icons/icons8-remove-96.png</iconset>
+              <normaloff>UI/throw-away.png</normaloff>UI/throw-away.png</iconset>
             </property>
             <property name="iconSize">
              <size>

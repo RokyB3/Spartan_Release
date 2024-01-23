@@ -1,30 +1,16 @@
 {
-    "numberOfAlarms": 1,
+    "numberOfAlarms": 2,
     "0": {
-        "time": "10:21",
-        "extreme": 10,
-        "colors": [
-            "yellow",
-            "brown"
-        ],
-        "brightness": 100,
-        "voiceContent": "HELLO TIM.",
+        "time": "23:33",
+        "extreme": 2,
         "active": true,
-        "music": "/root/Desktop/spartan/music/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3",
-        "voice": "/root/Desktop/spartan/voice/0.mp3"
+        "music": null
     },
     "1": {
-        "time": "00:00",
-        "extreme": 6,
-        "colors": [
-            "yellow",
-            "brown"
-        ],
-        "brightness": 100,
-        "voiceContent": "",
+        "time": "23:40",
+        "extreme": 1,
         "active": true,
-        "music": "/home/roko/spartan/music/test.mp3",
-        "voice": null
+        "music": "C:/Users/Roko/Downloads/Skrillex - Bangarang (Ft. Sirah) [Official Audio].mp3"
     },
     "2": {
         "time": "00:00",
